@@ -20,8 +20,8 @@
   
   ##  **Description**
  
-
- <!-- <img src= "public/assets/images/burger.gif" alt="gif" /> -->
+<img src = "public/assets/img/fitness.jpg" alt = "screenshot">
+ 
  
 
   ## **Installation**
@@ -34,7 +34,7 @@
 
   
 
-
+<!-- <img src= "public/assets/images/burger.gif" alt="gif" /> -->
 
 
   #### **Contributors** 
