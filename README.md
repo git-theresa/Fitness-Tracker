@@ -8,7 +8,7 @@
   # **Fitness-Tracker**
   
   ##  **_Live Link_** 
-  <!-- * https://burgerqueenjoint.herokuapp.com/ -->
+  https://planet-finesse.herokuapp.com/
   
   ##  **Table of Contents**
   * Description
