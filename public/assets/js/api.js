@@ -1,5 +1,5 @@
 const API = {
-  // app.get
+  // Use with routes/api.js - router.get()
   async getLastWorkout() {
     let res;
     try {
@@ -11,9 +11,8 @@ const API = {
 
     return json[json.length - 1];
   },
-  // app.put /api/workouts/:id
-  // useid to find record - mongoose,js db.Workout.findByIdAndUpdate()
-  async addExercise(data) {
+   // Use with routes/api.js - router.put) & db.findByIdAndUpdate()
+   async addExercise(data) {
     const id = location.search.split("=")[1];
 
     const res = await fetch("/api/workouts/" + id, {
@@ -26,7 +25,7 @@ const API = {
 
     return json;
   },
-  // app.post
+ // Use with routes/api.js - router.post() & db.create()
   async createWorkout(data = {}) {
     const res = await fetch("/api/workouts", {
       method: "POST",
